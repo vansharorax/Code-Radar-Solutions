@@ -1,5 +1,5 @@
 #include <stdio.h>
-#inlcude <math.h>
+
 
 int main() {
     float rad;
