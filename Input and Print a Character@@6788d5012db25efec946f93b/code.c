@@ -4,6 +4,6 @@ int main() {
     char letter;
 
     scanf("%s" ,&letter);
-    printf("You Entered: ",letter);
+    printf("You Entered: %s",letter);
     return 0;
 }
