@@ -10,7 +10,7 @@ int main() {
     scanf("%d %d",&a,&b);
 
     result = a | b;
-    printf("Result of %d | %d is : %d\n",a,b,result);
+    printf("%d\n",result);
 
     return 0;
 
