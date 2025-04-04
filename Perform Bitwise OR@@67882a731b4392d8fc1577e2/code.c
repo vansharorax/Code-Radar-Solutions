@@ -6,7 +6,7 @@ int main() {
     int result;
 
 
-    printf("Enter two numbers seperated by space : ");
+    
     scanf("%d %d",&a,&b);
 
     result = a | b;
