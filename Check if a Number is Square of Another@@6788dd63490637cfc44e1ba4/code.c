@@ -4,8 +4,8 @@ int main() {
     int sn;
     scanf("%d",&n,&sn);
     if (n == sn*sn) {
-        printf("Yes")
+        printf("Yes");
     } else {
-        printf("No")
+        printf("No");
     }
 }
