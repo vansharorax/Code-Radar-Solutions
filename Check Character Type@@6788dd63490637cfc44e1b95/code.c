@@ -4,9 +4,9 @@ int main() {
     char a,z;
     scanf("%c",&a,&z);
 
-    if (ch == a) {
+    if (a) {
         printf("Vowel");
-    } else if ( ch == z) {
+    } else if ( z) {
         printf("Consonant");
     }
 }
