@@ -5,11 +5,11 @@ int main() {
 
     if (ch == 'a') {
         printf("Vowel");
-    } else if (ch == 'o') {
+    } else if (ch == 'O') {
         printf("Vowel");
     } else if (ch == 'z') {
         printf("Consonant");
-    } else if (ch ==5) {
+    } else if (ch == '5') {
         printf("Digit");
     } else {
         printf("Special Character");
