@@ -1,15 +1,11 @@
-// Your code here...
 #include <stdio.h>
 int main() {
-    int num;
+    int age;
     int citi;
-    scanf("%d %d",&num,&citi);
-
-    if ( num == 4 || num == 9 && citi == 1) {
-        printf("Not Prime");
-    }else if (num % num == 0 && num % 1== 0) {
-        printf("Prime");
+    scanf("%d",&age);
+    if (age >= 18 && citi ==1) {
+        printf("Eligible");
     } else {
-        printf("Not Prime");
+        printf("Not Eligible");
     }
 }
