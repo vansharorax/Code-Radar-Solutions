@@ -8,5 +8,7 @@ int main() {
         printf("30");
     } else if (num == 3 || num == 5 || num == 7 || num == 8 || num == 10  || num == 12) {
         printf("31");
+    } else {
+        printf("Invalid Month");
     }
 }
