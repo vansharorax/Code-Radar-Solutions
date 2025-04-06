@@ -2,8 +2,13 @@
 int main(){
     int num;
     int pos;
-    scanf("%d%d",&num,&pos);
+    scanf("%d%d",&num);
     pos = __builtin_ffs(num);
-    printf("%d",pos);
+    
+    if (pos ==0) {
+        printf("0");
+    } else {
+        printf("1");
+    }
     return 0;
 }
