@@ -2,7 +2,7 @@
 int main(){
     int num;
     int pos;
-    scanf("%d%d",&num,&n);
+    scanf("%d%d",&num);
     pos = __builtin_ffs(num);
     printf("%d",pos);
     return 0;
