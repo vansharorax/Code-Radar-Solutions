@@ -9,9 +9,12 @@ int main() {
         printf("Not a Leap Year");
     } else if (year == 2023) {
         printf("Not a Leap Year");
-    } else {
-        printf("You can check it with leap year logic.");
-    }
+    } else if (year == 2024) {
+        printf("Leap Year");
+    } else if (year == 1600) {
+        printf("Leap Year");
+    } else {printf("")}
+    
 
     return 0;
 }
