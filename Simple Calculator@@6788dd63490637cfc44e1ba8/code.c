@@ -10,7 +10,7 @@ int main() {
         if (b!=0) {
             printf("%d",a/b);
         } else {
-            printf("Zero Error")
+            printf("Zero Error");
         }
     } else if(c == '+') {
         printf("%d",a+b);
