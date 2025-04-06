@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    int a,z;
+    char a,z;
     scanf("%c",&a,&z);
 
     if (ch == a) {
