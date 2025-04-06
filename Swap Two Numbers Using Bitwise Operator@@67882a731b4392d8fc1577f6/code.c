@@ -11,7 +11,7 @@ int main() {
     b = a ^ b;  // Now b = (a ^ b) ^ b = a
     a = a ^ b;  // Now a = (a ^ b) ^ a = b
 
-    printf("%d%d", a, b);
+    printf("%d %d", a, b);
 
     return 0;
 }
