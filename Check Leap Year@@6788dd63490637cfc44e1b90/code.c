@@ -13,7 +13,7 @@ int main() {
         printf("Leap Year");
     } else if (year == 1600) {
         printf("Leap Year");
-    } else {printf("")}
+    } else {printf("");}
     
 
     return 0;
