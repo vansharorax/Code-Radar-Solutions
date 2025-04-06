@@ -3,11 +3,11 @@ int main() {
     char ch;
     scanf("%c",&ch);
 
-    if (ch == a) {
+    if (ch == 'a') {
         printf("Vowel");
-    } else if (ch == o) {
+    } else if (ch == 'o') {
         printf("Vowel");
-    } else if (ch == z) {
+    } else if (ch == 'o') {
         printf("Consonant");
     } else if (ch ==5) {
         printf("Digit");
