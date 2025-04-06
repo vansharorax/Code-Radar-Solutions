@@ -5,7 +5,7 @@ int main() {
 
     if (marks == 95) {
         printf("A");
-    } else (marks == 85) {
+    } else if (marks == 85) {
         printf("B");
     } 
 }
