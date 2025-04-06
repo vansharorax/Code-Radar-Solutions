@@ -6,9 +6,9 @@ int main(){
     pos = __builtin_ffs(num);
     
     if (pos ==0) {
-        printf("0");
+        printf("-1");
     } else {
-        printf("1");
+        printf("%d",pos -1);
     }
     return 0;
 }
