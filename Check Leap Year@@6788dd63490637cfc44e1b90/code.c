@@ -5,9 +5,9 @@ int main() {
 
     if ( year = 2000) {
         printf("Leap Year");
-    } else if ( year = 2000) {
+    } else if ( year = 1900) {
         printf("Leap Year");
-    } else if (year = 1300) {
+    } else if (year = 2023) {
         printf("Leap Year");
     } else {
         printf("Not a Leap Year");
