@@ -2,7 +2,7 @@
 
 int main() {
     int ch;
-    scanf(" %c", &ch);
+    scanf(" %d", &ch);
 
     for (int i = 1; i <= ch; i++) {
         for (char j = 'A'; j <= i; j++) {
