@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 int main() {
-    char ch;
+    int ch;
     scanf(" %c", &ch);
 
-    for (char i = 'A'; i <= ch; i++) {
+    for (int i = 1; i <= ch; i++) {
         for (char j = 'A'; j <= i; j++) {
             printf("%c ", j);
         }
