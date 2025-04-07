@@ -4,15 +4,11 @@ int main() {
     char ch;
     scanf(" %c", &ch);
 
-    char i = 'A';
-    while (i <= ch) {
-        char j = 'A';
-        while (j <= i) {
+    for (char i = 'A'; i <= ch; i++) {
+        for (char j = 'A'; j <= i; j++) {
             printf("%c ", j);
-            j++;
         }
         printf("\n");
-        i++;
     }
 
     return 0;
