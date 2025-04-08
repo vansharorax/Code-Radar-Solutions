@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <string.h>
 
-#define MAX 100     // Maximum number of strings
-#define LEN 100     // Maximum length of each string
+#define MAX 100
+#define LEN 100
 
 void selectionSort(char arr[][LEN], int n) {
     char temp[LEN];
@@ -17,10 +17,21 @@ void selectionSort(char arr[][LEN], int n) {
     }
 }
 
-void printArray(char arr[][LEN], int n) {
+int main() {
+    int n;
+    scanf("%d", &n);
+
+    char arr[MAX][LEN];
+
     for (int i = 0; i < n; i++) {
-        printf("%s\n", arr[i]);
+        scanf("%s", arr[i]);
     }
+
+    selectionSort(arr, n);
+
+    for (int i = 0; i < n; i++) {
+        printf("%s ", arr[i]);
+    }
+
+    return 0;
 }
-
-
