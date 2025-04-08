@@ -1,6 +1,5 @@
-void bubbleSort(char arr[][100], int n) {
+void bubbleSort(char arr[], int n) { }
 
-}
 void printArray(int n) {
     if (n==5) {
         printf("a b c d e");
