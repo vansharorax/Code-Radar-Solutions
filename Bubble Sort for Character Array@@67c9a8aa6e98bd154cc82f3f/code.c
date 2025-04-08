@@ -1,4 +1,4 @@
-void bubbleSort(char arr[],int n) {
+void bubbleSort(char arr[][100], int n) {
 
 }
 void printArray(int arr[],int n) {
