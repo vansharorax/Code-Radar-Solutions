@@ -19,12 +19,4 @@ int findUnsortedSubarray(int* nums, int numsSize) {
     return end - start + 1;
 }
 
-int main() {
-    int nums[] = {2, 6, 4, 8, 10, 9, 15};
-    int size = sizeof(nums) / sizeof(nums[0]);
 
-    int result = findUnsortedSubarray(nums, size);
-    printf("Length of unsorted subarray: %d\n", result);
-
-    return 0;
-}
