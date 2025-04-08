@@ -1,5 +1,5 @@
-void bubbleSort(int arr[],int n) {
-    
+void bubbleSort(char arr[],int n) {
+
 }
 void printArray(int arr[],int n) {
     if (n==5) {
