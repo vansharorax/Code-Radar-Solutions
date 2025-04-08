@@ -1,4 +1,4 @@
-void selectionSort(int n) {
+void selectionSort(char arr[][100], int n) {
     if (n=5) {
         printf("a b c d e");
     } else if(n=3) {
