@@ -1,9 +1,9 @@
-#include <stdio.h>
+
 
 #define MAX 100
 #define LEN 100
 
-// Manual string comparison function
+
 int compareStrings(char a[], char b[]) {
     int i = 0;
     while (a[i] != '\0' && b[i] != '\0') {
@@ -21,7 +21,7 @@ int compareStrings(char a[], char b[]) {
         return 1;
 }
 
-// Manual string copy
+
 void copyString(char dest[], char src[]) {
     int i = 0;
     while ((dest[i] = src[i]) != '\0')
