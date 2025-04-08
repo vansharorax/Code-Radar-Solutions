@@ -5,7 +5,6 @@ void insertionSort(int arr[], int n) {
         int key = arr[i];
         int j = i - 1;
 
-        // Move elements greater than key
         while (j >= 0 && arr[j] > key) {
             arr[j + 1] = arr[j];
             j--;
@@ -18,24 +17,10 @@ void insertionSort(int arr[], int n) {
 void printArray(int arr[], int n) {
     for (int i = 0; i < n; i++) {
         if (i > 0) {
-            printf(" "); // print space before every number except the first
+            printf(" "); 
         }
         printf("%d", arr[i]);
     }
-    printf("\n"); // final newline
+    printf("\n"); 
 }
 
-int main() {
-    int n;
-    scanf("%d", &n);
-
-    int arr[n];
-    for (int i = 0; i < n; i++) {
-        scanf("%d", &arr[i]);
-    }
-
-    insertionSort(arr, n);
-    printArray(arr, n);
-
-    return 0;
-}
