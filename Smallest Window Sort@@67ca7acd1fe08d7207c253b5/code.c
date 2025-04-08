@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int findUnsortedSubarray(int* nums, int numsSize) {
-    int start = -1, end = -2; // default values in case array is already sorted
+    int start = -1, end = -2;
     int max = nums[0], min = nums[numsSize - 1];
 
     for (int i = 1; i < numsSize; i++) {
